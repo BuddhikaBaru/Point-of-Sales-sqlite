@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Point of Sales</string>
+    <string name="mini_pos_log_in">MINI POS LOG IN</string>
+    <string name="user">user</string>
+    <string name="e_g_john123">e.g: john123</string>
+    <string name="user_name_hint_login_page">user name</string>
+    <string name="password_hint_login_page">Password</string>
+    <string name="log_in_button_text">Log In</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="user_name_or_password_is_empty">User name or password is empty</string>
+    <string name="log_in_success">Log in Success!</string>
+    <string name="user_name_or_password_is_wrong">User name or Password is wrong!</string>
+</resources>

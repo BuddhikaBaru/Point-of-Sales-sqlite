@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Main">
+
+<!--dashboar layout-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard"
+            android:textSize="24sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <!--button layer 1-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/view_stock_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corners"
+            android:shadowColor="@color/black"
+            android:text="@string/stock_view"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/New_bill_button"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corners"
+            android:shadowColor="@color/black"
+            android:text="@string/new_bill"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <!--button layer 2-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/addStockButton"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:shadowColor="@color/black"
+            android:text="@string/add_stock"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/addProductButton"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:shadowColor="@color/black"
+            android:text="@string/add_product"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/addCategoryButton"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:shadowColor="@color/black"
+            android:text="@string/add_category"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+
+<!--button layer 3-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/view_category"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:id="@+id/viewCategoryButton"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/viewProductButton"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/view_products"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="24dp"
+            android:shadowColor="@color/black"/>
+
+    </LinearLayout>
+<!--button layer 4-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/return_refund"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:id="@+id/returnRefundButton"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/report_Button"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/reports"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="24dp"
+            android:shadowColor="@color/black"/>
+
+    </LinearLayout>
+
+    <!--button layer 5-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/promotion"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:id="@+id/addPromoButton"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@+id/viewPromoButton"
+            android:background="@drawable/rounded_corners"
+            android:text="@string/view_promotion"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="24dp"
+            android:shadowColor="@color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>

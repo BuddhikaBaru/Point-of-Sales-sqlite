@@ -15,4 +15,17 @@
     <string name="new_password">New Password</string>
     <string name="retype_new_password">Retype New Password</string>
     <string name="register">Register</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="add_stock">+ STOCK</string>
+    <string name="new_bill">NEW BILL</string>
+    <string name="stock_view">VIEW STOCK</string>
+    <string name="add_product">+ PRODUCT</string>
+    <string name="category">CATEGORY</string>
+    <string name="reports">REPORTS</string>
+    <string name="add_category">+ CATEGORY</string>
+    <string name="view_category">VIEW CATEGORY</string>
+    <string name="view_products">VIEW PRODUCTS</string>
+    <string name="return_refund">RETURN/REFUND</string>
+    <string name="view_promotion">VIEW PROMOTION</string>
+    <string name="promotion">+ PROMOTION</string>
 </resources>

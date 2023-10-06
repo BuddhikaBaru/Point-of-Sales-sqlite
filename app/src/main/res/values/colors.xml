@@ -5,4 +5,9 @@
     <color name="primary_purple">#6200EE</color>
     <color name="deep_purple">#3700B3</color>
     <color name="light_maroon">#B00020</color>
+    <color name="editTextHintColor">#A1887F</color>
+    <color name="apple_light_green">#90EE90</color>
+    <color name="bean_red">#F75D59</color>
+    <color name="dark_aqua">#007A50</color>
+    <color name="dark_crimson">#AF1333</color>
 </resources>

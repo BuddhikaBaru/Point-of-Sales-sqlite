@@ -10,4 +10,9 @@
     <string name="user_name_or_password_is_empty">User name or password is empty</string>
     <string name="log_in_success">Log in Success!</string>
     <string name="user_name_or_password_is_wrong">User name or Password is wrong!</string>
+    <string name="mini_pos_register">MINI POS Register</string>
+    <string name="enter_new_username">Enter New Username</string>
+    <string name="new_password">New Password</string>
+    <string name="retype_new_password">Retype New Password</string>
+    <string name="register">Register</string>
 </resources>

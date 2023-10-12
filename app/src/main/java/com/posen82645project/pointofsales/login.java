@@ -4,6 +4,7 @@ import static com.posen82645project.pointofsales.R.string.user_name_or_password_
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -51,8 +52,13 @@ public class login extends AppCompatActivity {
 
         if (username.equals("") || password.equals("")) {
             Toast.makeText(this, getString(R.string.user_name_or_password_is_empty), Toast.LENGTH_SHORT).show();}
+
+
         else if (username.equals("John") && password.equals("123")) {
-            Toast.makeText(this, R.string.log_in_success, Toast.LENGTH_SHORT).show();}
+            Intent i = new Intent(login.this, Main.class);
+            startActivity(i);
+        }
+
         else {
         Toast.makeText(this, user_name_or_password_is_wrong,Toast.LENGTH_SHORT).show();}
 

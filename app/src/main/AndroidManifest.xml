@@ -16,6 +16,9 @@
         android:theme="@style/Theme.PointOfSales"
         tools:targetApi="31">
         <activity
+            android:name=".BuyVoucher"
+            android:exported="false" />
+        <activity
             android:name=".AddStock"
             android:exported="false" />
         <activity

@@ -12,7 +12,7 @@ public class Main extends AppCompatActivity {
 
     Button viewStock, newBill, addStock, addProduct, addCategory, viewCategory, viewProduct, refund, reports, addPromo, viewPromo, logout;
 
-    @SuppressLint("MissingInflatedId")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

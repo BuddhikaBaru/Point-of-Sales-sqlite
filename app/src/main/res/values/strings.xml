@@ -44,4 +44,23 @@
     <string name="enter_product_description">Enter Product Description</string>
     <string name="products_in_shop">PRODUCTS IN SHOP</string>
     <string name="enter_new_product">Enter New Product</string>
+    <string name="product">PRODUCT</string>
+    <string name="barcode">Barcode</string>
+    <string name="stock_price">Enter Buying Price</string>
+    <string name="buy_price">Enter Buying Price</string>
+    <string name="sell_price">Enter Selling Price</string>
+    <string name="add_to">Add To</string>
+    <string name="finish_add">Finish Add</string>
+    <string name="add_stock_h">ADD STOCK</string>
+    <string name="new_item">Another</string>
+    <string name="ex_date">Enter Exp Date</string>
+    <string name="qty">Quantity</string>
+    <string name="stock_details">STOCK DETAILS</string>
+    <string name="date">Date</string>
+    <string name="suplier">Supplier Name</string>
+    <string name="total_value">Total Value</string>
+    <string name="pay_date">Pay Date</string>
+    <string name="next">Next</string>
+    <string name="cash">Cash</string>
+    <string name="cheque">Cheque</string>
 </resources>
